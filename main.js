@@ -1,4 +1,4 @@
-var hamburgerIco = $('i.fa-bars');
+var hamburgerIco = $('a > i.fa-bars');
 var visible = false;
 
 hamburgerIco.click(
@@ -10,7 +10,7 @@ hamburgerIco.click(
   }
 );
 
-var hamburgerIcoClose = $('i.fa-times');
+var hamburgerIcoClose = $('a > i.fa-times');
 hamburgerIcoClose.click(
   function () {
     if (visible) {
